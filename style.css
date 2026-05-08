@@ -1,0 +1,137 @@
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Arial", sans-serif;
+  height: 100vh;
+  background-color: darkgrey;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card {
+  width: 350px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: gray 0px 10px 20px;
+  padding: 24px;
+  text-align: center;
+}
+
+.profile {
+  text-align: center;
+}
+
+.avatar {
+  display: inline-block;
+  position: relative;
+}
+
+.profile img {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.profile p {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #2d3748;
+  margin: 16px;
+}
+
+.online-dot {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  width: 14px;
+  height: 14px;
+  background: limegreen;
+  border: 2px solid white;
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.08);
+}
+
+.verified {
+  color: dodgerblue;
+  font-size: 16px;
+  margin-left: 4px;
+}
+
+.job-title {
+  text-align: center;
+}
+
+.job-title p {
+  font-size: 15px;
+  color: #718096;
+  margin: 16px;
+}
+
+.info-box {
+  text-align: center;
+}
+
+.info-box p {
+  display: flex;
+  flex-direction: column;
+  background-color: #f7fafc;
+  padding: 12px;
+  border-radius: 12px;
+  margin: 0;
+  font-size: 14px;
+  color: #4a5568;
+}
+
+.stats {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat h2 {
+  font-size: larger;
+}
+
+.stat p {
+  font-size: smaller;
+}
+
+.follow-btn {
+  background-color: #3b82f6;
+  color: white;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 40px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  margin: 16px;
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: gray 0px 15px 30px;
+}
+
+.follow-btn:hover {
+  background-color: #2563eb;
+  transform: scale(1.02);
+}
+
+.stat h2:hover {
+  color: #3b82f6;
+}
